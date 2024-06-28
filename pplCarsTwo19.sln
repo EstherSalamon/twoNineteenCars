@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pplCarsTwo19.Web", "pplCarsTwo19.Web\pplCarsTwo19.Web.csproj", "{BA92CEDC-3A77-4DBD-AFE8-AFD661ED603B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pplCarsTwo19.Data", "pplCarsTwo19.Data\pplCarsTwo19.Data.csproj", "{59331F60-6910-48B9-90E2-7363FDF5582E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA92CEDC-3A77-4DBD-AFE8-AFD661ED603B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA92CEDC-3A77-4DBD-AFE8-AFD661ED603B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA92CEDC-3A77-4DBD-AFE8-AFD661ED603B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA92CEDC-3A77-4DBD-AFE8-AFD661ED603B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59331F60-6910-48B9-90E2-7363FDF5582E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59331F60-6910-48B9-90E2-7363FDF5582E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59331F60-6910-48B9-90E2-7363FDF5582E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59331F60-6910-48B9-90E2-7363FDF5582E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
