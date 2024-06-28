@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 
@@ -15,6 +15,10 @@ const AddCar = () => {
     const [disabled, setDisabled] = useState(false);
     const [isValid, setIsValid] = useState(false);
     const navigate = useNavigate();
+
+    useEffect(() => {
+        checkFormValidity();
+    }, [car])
 
     const onTextChange = e => {
         const copy = { ...car };
@@ -55,7 +59,7 @@ const AddCar = () => {
     }
 
     return (
-        <div style={{marginTop: 80} }>
+        <div style={{marginTop: 80}}>
             <input type='text' name='make' className='form-control' placeholder='Make' value={car.make} onChange={e => onTextChange(e)} />
             <input type='text' name='model' className='form-control' placeholder='Model' value={car.model} onChange={e => onTextChange(e)} />
             <input type='text' name='year' className='form-control' placeholder='Year' value={car.year} onChange={e => onTextChange(e)} />
